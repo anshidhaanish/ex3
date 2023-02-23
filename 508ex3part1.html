@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>FORM 1</title>
+</head>
+
+<body bgcolor="lavender">
+<h1 align="center">RESOURCE MANAGEMENT : report filter </h1>
+<hr>
+
+<form>
+
+<table align="center">
+
+<tr>
+<td>Select Server:</td>
+<td><select name="Server" id="server">
+
+    <option value="s1">FUENT-PC:8132</option>
+    <option value="s2">FUENT-PC:8139</option>
+    <option value="s3">FUENT-PC:8148</option>
+
+</select></td>
+</tr>
+
+<tr>
+<td>Visualize Data:</td>
+<td><input type="checkbox"></td>
+</tr>
+
+<tr>
+<td>Report Formate:</td>
+<td><select name="lang" id="lang">
+
+    <option value="s1">html</option>
+    <option value="s2">php</option>
+    <option value="s3">css</option>
+
+</select></td>
+</tr>
+
+<tr>
+<td>Reports Period:</td>
+<td><br><br>
+   <input type="radio" name="r1">Today<br>
+   <input type="radio" name="r1">Yesterday<br>
+   <input type="radio" name="r1">Last week<br>
+   <input type="radio" name="r1">Last month<br>
+   <input type="radio" name="r1">Last 3 months<br>
+   <input type="radio" name="r1">Last 6 months<br>
+   <input type="radio" name="r1">Last 12 months<br>
+   <input type="radio" name="r1">Date range<br>
+</td>
+</tr>
+
+<tr>
+<td><br>Start Date:</td>
+<td><br><input type="date"></td>
+</tr>
+
+<tr>
+<td><br>End Date:</td>
+<td><br><input type="date"></td>
+</tr>
+
+<tr>
+<td><br>Top Number:</td>
+<td><input type="number" id="top number" name="top number" min="1" max="10"></td>
+</tr>
+
+<tr>
+<td>Location Of Names File</td><td><input type="file"></td>
+</tr>
+
+<tr>
+<td><br><input type="submit" value="View Report"></td>
+</tr>
+
+
+</table>
+
+</form>
+
+</body>
+</html>
+
